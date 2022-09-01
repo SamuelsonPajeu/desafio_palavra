@@ -1,0 +1,12 @@
+[urls]
+substantive = {link = "https://dicionariocriativo.com.br/analogico/{}/substantivo/", class="blockList"}
+verb = {link = "https://dicionariocriativo.com.br/analogico/{}/verbo/", class="blockList"}
+adjective = {link = "https://dicionariocriativo.com.br/analogico/{}/adjetivo/", class="blockList"}
+rime = {link = "https://www.dicio.com.br/cordial/", class="list"} 
+
+[search]
+max_results = 50
+
+[cache]
+enabled = true
+max_size = 100
