@@ -1,0 +1,1 @@
+web: gunicorn desafio_palavras_api.wsgi
