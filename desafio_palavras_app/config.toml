@@ -1,6 +1,6 @@
 [urls]
 substantive = {link = "https://dicionariocriativo.com.br/analogico/{}/substantivo/", class="blockList"}
-relative = {link = "https://dicionariocriativo.com.br/{}", class="tags"}
+related = {link = "https://dicionariocriativo.com.br/{}", class="tags"}
 verb = {link = "https://dicionariocriativo.com.br/analogico/{}/verbo/", class="blockList"}
 adjective = {link = "https://dicionariocriativo.com.br/analogico/{}/adjetivo/", class="blockList"}
 rime = {link = "https://www.dicio.com.br/{}/", class="list"} 
