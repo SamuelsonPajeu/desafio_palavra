@@ -26,7 +26,7 @@ class Colector:
             logging.info(f"[Colector/SearchWord] '{self.searched_word}' found in cache...")
             logging.info(f"[Colector/SearchWord] Got {cache.get(self.searched_word)['total_ammount']} words from {self.searched_word}...")
             cache.words[self.searched_word]["searches"] += 1
-            return {self.searched_word: cache.get(self.searched_word)}
+            return {cache.get(self.searched_word)}
 
         # Começo do Coletor - Pega o tempo que o programa foi iniciado
         logging.info(f"[Colector/SearchWord] Word {self.searched_word} is not in cache, collecting...")
@@ -56,7 +56,7 @@ class Colector:
         cache.add(self.searched_word, self.words[self.searched_word])
 
         # Retorna as palavras relacionadas
-        return self.words
+        return self.words[self.searched_word]
 
     def load_config(self):
         logging.info("[Colector/load_config] Loading config file...")
