@@ -28,6 +28,7 @@ A REST API that retrieve related words by scraping Brazilian web dictionaries
 ```
 
 ## Usage
+- LIVE APPLICATION: https://desafio-palavra.onrender.com
 - ENDPOINT: http://127.0.0.1:8000/
 
 #### Get words data
