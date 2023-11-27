@@ -3,6 +3,7 @@
 A REST API that retrieve related words by scraping Brazilian web dictionaries
 
 ![Tests](https://github.com/SamuelsonPajeu/desafio_palavra/actions/workflows/tests.yml/badge.svg)
+![Image](https://render-badge-samuelsonpajeu.onrender.com/by_name?projectName=desafio-palavra)
 
 ## Install
 - Make sure you got:
